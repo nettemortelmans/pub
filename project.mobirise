@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "index.html",
     "name": "My Site",
     "theme": {
       "name": "mobirise3",
@@ -21,15 +21,19 @@
       }
     },
     "versionFirst": "3.10.1",
-    "uniqCompNum": 72,
-    "versionPublish": "3.10.1"
+    "uniqCompNum": 80,
+    "versionPublish": "3.10.1",
+    "favicon": "",
+    "noImageResize": "true",
+    "cookiesAlert": "",
+    "google-analytics": ""
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Nette Mortelmans",
-        "meta_descr": "nette mortelmans, tekeningen, illustraties, schilderijen, l'escaut blues, splanky rhythm, muziek, luca-school of arts, 2016",
+        "meta_descr": "nette mortelmans, tekeningen, illustraties, illustration, schilderijen, some paintings, muddy water, verdwalen in oude verhalen,  l'escaut blues, splanky rhythm, muziek, luca-school of arts, 2016, 2017",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -178,7 +182,9 @@
       ]
     },
     "page1.html": {
-      "settings": {},
+      "settings": {
+        "meta_descr": "nette mortelmans, illustratie, sint-lucas luca school of art, gent"
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -306,32 +312,12 @@
             "paddingBottom": 1,
             "images": [
               {
-                "tags": "Awesome",
+                "tags": "Animated",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/baby-1-2000x2331-55-2000x2331-79-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/baby-1-2000x2331-55-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/baby-2-2000x2685-84-2000x2685-21-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/baby-2-2000x2685-84-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/baby-3-2000x2904-25-2000x2904-70-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/baby-3-2000x2904-25-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/baby-1-kopie-2000x2331-97-2000x2331-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/baby-1-kopie-2000x2331-97.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -340,38 +326,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/baby-painting-2000x1565-84-2000x1565-53-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/baby-painting-2000x1565-84-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/circus-1-2000x2715-70-2000x2715-8-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/circus-1-2000x2715-70-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Beautiful",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/circus-2-2000x2727-87-2000x2727-8-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/circus-2-2000x2727-87-1.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/everzwijn-2000x1466-9-2000x1466-65-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/everzwijn-2000x1466-9-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/baby-2-kopie-2000x2685-5-2000x2685-23.jpg",
+                "image": "@PROJECT_PATH@/assets/images/baby-2-kopie-2000x2685-5.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -380,8 +336,78 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img039-2000x1452-23-2000x1452-35-1.jpg",
-                "image": "@PROJECT_PATH@/assets/images/img039-2000x1452-23-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/baby-3-kopie-2000x2904-66-2000x2904-62.jpg",
+                "image": "@PROJECT_PATH@/assets/images/baby-3-kopie-2000x2904-66.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/baby-painting-kopie-2000x1565-28-2000x1565-84.jpg",
+                "image": "@PROJECT_PATH@/assets/images/baby-painting-kopie-2000x1565-28.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/circus-1-2000x2715-91-2000x2715-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/circus-1-2000x2715-91.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/circus-2-2000x2727-23-2000x2727-64.jpg",
+                "image": "@PROJECT_PATH@/assets/images/circus-2-2000x2727-23.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/everzwijn-2000x1466-50-2000x1466-44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/everzwijn-2000x1466-50.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/walvis-2000x1471-1-2000x1471-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/walvis-2000x1471-1.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/moeder-en-zoon-2-2000x2793-49-2000x2793-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/moeder-en-zoon-2-2000x2793-49.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/moeder-en-zoon1-2000x2673-49-2000x2673-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/moeder-en-zoon1-2000x2673-49.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -433,38 +459,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/katten-2000x2871-94-2000x2871-96.jpg",
-                "image": "@PROJECT_PATH@/assets/images/katten-2000x2871-94.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/klopgeesten-2000x2797-87-2000x2797-19.jpg",
-                "image": "@PROJECT_PATH@/assets/images/klopgeesten-2000x2797-87.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kwaaie-oog-2000x2770-97-2000x2770-23.jpg",
-                "image": "@PROJECT_PATH@/assets/images/kwaaie-oog-2000x2770-97.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/maria-2000x2877-36-2000x2877-23.jpg",
-                "image": "@PROJECT_PATH@/assets/images/maria-2000x2877-36.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/klopgeesten-2000x2797-12-2000x2797-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/klopgeesten-2000x2797-12.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -473,38 +469,68 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/moord-2000x2842-93-2000x2842-28.jpg",
-                "image": "@PROJECT_PATH@/assets/images/moord-2000x2842-93.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/katten-2000x2871-79-2000x2871-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/katten-2000x2871-79.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Beautiful",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/waterlelies-2000x2905-17-2000x2905-51.jpg",
-                "image": "@PROJECT_PATH@/assets/images/waterlelies-2000x2905-17.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kwaaie-oog-2000x2770-78-2000x2770-32.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kwaaie-oog-2000x2770-78.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/wolf-2000x2782-2-2000x2782-25.jpg",
-                "image": "@PROJECT_PATH@/assets/images/wolf-2000x2782-2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/maria-2000x2877-33-2000x2877-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/maria-2000x2877-33.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
               {
-                "tags": "Animated",
+                "tags": "Awesome",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/ziekenmans-2000x2843-96-2000x2843-29.jpg",
-                "image": "@PROJECT_PATH@/assets/images/ziekenmans-2000x2843-96.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/moord-2000x2842-13-2000x2842-14.jpg",
+                "image": "@PROJECT_PATH@/assets/images/moord-2000x2842-13.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/waterlelies-2000x2905-30-2000x2905-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/waterlelies-2000x2905-30.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/wolf-2000x2782-28-2000x2782-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wolf-2000x2782-28.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ziekenmans-2000x2843-47-2000x2843-73.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ziekenmans-2000x2843-47.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -556,38 +582,8 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/fiets-2000x2947-66-2000x2947-49.jpg",
-                "image": "@PROJECT_PATH@/assets/images/fiets-2000x2947-66.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/knotwilgen-beter-2000x2968-90-2000x2968-50.jpg",
-                "image": "@PROJECT_PATH@/assets/images/knotwilgen-beter-2000x2968-90.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Creative",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/koeien-2000x2997-84-2000x2997-82.jpg",
-                "image": "@PROJECT_PATH@/assets/images/koeien-2000x2997-84.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/modder-2000x2977-12-2000x2977-61.jpg",
-                "image": "@PROJECT_PATH@/assets/images/modder-2000x2977-12.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/knotwilgen-beter-hersteld-2000x2968-46-2000x2968-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/knotwilgen-beter-hersteld-2000x2968-46.jpg",
                 "caption": "Type caption here",
                 "active": false
               },
@@ -596,8 +592,38 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/zelfportret-mw-2000x3037-79-2000x3037-69.jpg",
-                "image": "@PROJECT_PATH@/assets/images/zelfportret-mw-2000x3037-79.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/fiets-hersteld-2000x2947-15-2000x2947-31.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fiets-hersteld-2000x2947-15.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/modder-hersteld-2000x2977-57-2000x2977-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/modder-hersteld-2000x2977-57.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/koeien-hersteld-2000x2997-58-2000x2997-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/koeien-hersteld-2000x2997-58.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/zelfportret-2000x2606-26-2000x2606-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/zelfportret-2000x2606-26.jpg",
                 "caption": "Type caption here",
                 "active": true
               }
@@ -617,7 +643,9 @@
       ]
     },
     "page2.html": {
-      "settings": {},
+      "settings": {
+        "meta_descr": "nette mortelmans, illustration, illustratie, about"
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -748,7 +776,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/foto-1400x930-52.jpg",
+              "src": "@PROJECT_PATH@/assets/images/dsc-0166-hersteld-2.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -773,7 +801,9 @@
       ]
     },
     "page3.html": {
-      "settings": {},
+      "settings": {
+        "meta_descr": "nette mortelmans, illustration, contact"
+      },
       "components": [
         {
           "_inherit": "menu",
@@ -867,39 +897,63 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "header1",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-family": "'Open Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
-            },
-            ".mbr-section-lead B": {
-              "color": "#7e9b9f"
-            }
-          },
-          "_anchor": "header1-1s",
+          "_name": "form1",
+          "_anchor": "form1-27",
           "_params": {
-            "parallax": true,
+            "labelsColor": "#000000",
+            "paddingTop": 3,
+            "paddingBottom": 3,
             "bgImageRadio": false,
-            "showArrow": false,
+            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#ffffff",
+            "bgColor": "#fff",
             "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
             "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "left",
-            "showTitle": false,
-            "showText": true,
-            "showButtons": false
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": false
           },
-          "title": "FULL SCREEN INTRO",
-          "text": "<b>CONTACT&nbsp;</b><br><b><br></b><br><b>Nette Mortelmans</b><br><b>nettemortelli@gmail.com</b>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+          "title": "CONTACT",
+          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "form": {
+            "action": "nettemortelli@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT ME</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#000000"
+            },
+            ".mbr-section-title": {
+              "color": "#7e9b9f",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
         }
       ]
     }

@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 
 
 
@@ -697,9 +698,10 @@ h6,
 #ext_menu-1r .dropdown-item[aria-expanded="true"] {
   color: #000000!important;
 }
-#header1-1s .mbr-section-lead {
-  font-family: 'Open Sans', sans-serif;
+#form1-27 .form-control-label {
+  color: #000000;
 }
-#header1-1s .mbr-section-lead B {
+#form1-27 .mbr-section-title {
   color: #7e9b9f;
+  font-family: 'Lato', sans-serif;
 }
